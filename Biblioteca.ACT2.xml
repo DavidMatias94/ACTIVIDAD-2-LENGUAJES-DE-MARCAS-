@@ -1,0 +1,129 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- Creando Doc XML para la actividad 2 -->
+
+
+<biblioteca  xmlns:xsi= "http://www.w3.org/2001/XMLSchema-instance"
+    xsi: noNamespaceSchemaLocation="04_DTD/XSD.BIBLIOTECA.xsd">
+    <nombre>Biblioteca pública Alpedrete</nombre>
+    <fecha_creación> 27/01/2000</fecha_creación>
+
+   
+    <nombre>Biblioteca pública Alpedrete</nombre>
+    <fecha_creación> 27/01/2000</fecha_creación>
+
+    <libros>
+        <libro id ="L1253" tipo_clase ="novela" n_pag= "120">
+            <título> Tierra </título>
+            <capítulos>
+                 <capítulo n_pag = "33">1. Inicio </capítulo> 
+                 <capítulo n_pag = "27">2. Desarrollo </capítulo> 
+                <capítulo n_pag = "50">3. Creación </capítulo> 
+                <capítulo n_pag = "20">4. Actualidad </capítulo> 
+            </capítulos>
+            <índice/> 
+            <sinopsis> Creaión de la Tierra </sinopsis>
+
+        </libro>
+
+        <libro id ="L1244" tipo_clase ="infantil" n_pag= "100">
+            <título> Piecito </título>
+            <capítulos>
+                <capítulo n_pag = "33">1. Empieza la Aventura </capítulo> 
+                <capítulo n_pag = "27">2. Piecito tiene problemas  </capítulo> 
+                <capítulo n_pag = "30">3. La isla </capítulo> 
+                <capítulo n_pag = "20">4. Solución </capítulo> 
+            </capítulos>
+            <índice/> 
+            <sinopsis> Piecito va en busca de una isla perdida </sinopsis>
+
+        </libro>
+
+        <libro id ="L2353" tipo_clase ="didáctico" n_pag= "150">
+            <título> HTML para dummies </título>
+            <capítulos>
+                <capítulo n_pag = "40">1. Inicio </capítulo> 
+                <capítulo n_pag = "27">2. HTML </capítulo> 
+                <capítulo n_pag = "43">3. Creación de tu primera página </capítulo> 
+                <capítulo n_pag = "50">4. Iniciación CSS </capítulo> 
+            <capítulos>
+            <índice/> 
+            <sinopsis> Iniciación a HTML desde 0f</sinopsis>
+
+        </libro>
+    
+    </libros>
+
+       
+
+    <revistas>
+
+     <revista id="P4353" tipo_clase = "informática">
+            <título>Nuevas tecnologías</título>
+            <número>22</número>
+            <índice></índice>
+            <secciones>
+                <sección n_pag= "10">Dispositivos móviles</sección>
+                <sección n_pag= "12">Técnologías emergentes</sección>
+                <sección n_pag= "33">Ordenadores</sección>
+                <sección n_pag= "20">Cosas que  no sabías</sección>
+            </secciones>
+            
+
+        </revista>
+
+    <revista id="P4353" tipo_clase = "coches">
+            <título>Más que coches</título>
+            <número>33</número>
+            <índice></índice>
+            <secciones>
+                <sección n_pag="12">Nuevos coches</sección>
+                <sección n_pag="17">BMW</sección>
+                <sección n_pag= "22">Reliquias</sección>
+                <sección n_pag= "30">Coches en venta</sección>
+            </secciones>
+            
+
+        </revista>
+
+    <revista id="P2253" tipo_clase = "corazón">
+            <título>Hola</título>
+            <número>123</número>
+            <índice></índice>
+            <secciones>
+                <sección n_pag= "22">Cotilleos</sección>
+                <sección n_pag= "21">La boda</sección>
+                <sección n_pag= "2">Pasatiempos</sección>
+                <sección n_pag= "30">Moda</sección>
+            </secciones>
+            
+
+        </revista>
+    
+    </revistas>
+
+    <periódicos>
+
+    <periódico tipo_clase= "nacional" fecha_de_publicación = "22/02/2020">
+        <secciones>
+            <sección tipo_sección = "económica"> Economía</sección>
+                <artículo autor= "Jose Luis Pérez"></artículo>
+            <sección tipo_sección = "deportes"> Deportes</sección>
+                <artículo autor= "Juan Palomo"><artículo>
+        <secciones>
+        <índice></índice>
+
+    </periódico>
+
+    <periódico tipo_clase= "internacional" fecha_de_publicación = "22/04/2020">
+        <secciones>
+            <sección tipo_sección = "internacional"> Internacional</sección>
+                <artículo autor= "Isabel Fernández"></autor>
+            <sección tipo_sección = "deportes"> Deportes</sección>
+                <artículo autor= "María Domínguez"></autor>
+        <secciones>
+        <índice></índice>
+
+    </periódico>
+    
+    </periódicos>
+    </biblioteca>
